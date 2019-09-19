@@ -12,7 +12,7 @@ class Home extends React.Component {
 quizstart(){
     //this.setState({isquiz: true})
     if(this.state.isquiz == false) {
-        this.setState({isquiz: true})
+        // this.setState({isquiz: true})
         this.props.navigation.navigate('Quiz')
     }
 }
